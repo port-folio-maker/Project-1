@@ -1,0 +1,153 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0rem;
+  height: 5rem;
+  width: 100%;
+  border-bottom: 3px solid gray;
+}
+
+.nav img {
+  height: 3rem;
+  width: auto;
+}
+
+.creator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+  width: 100%;
+}
+
+.outline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 6rem;
+  margin-top: 2rem;
+  border-radius: 50%;
+  border: 2px solid gray;
+  width: 7.5rem;
+  height: 7.5rem;
+}
+
+.outline img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}
+
+.about {
+  position: absolute;
+  top: 19rem;
+  align-items: center;
+  padding-left: 33%;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: xx-large;
+}
+
+.name img {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 0.3rem;
+  align-items: center;
+}
+
+.n {
+  margin-top: 1.3rem;
+  font-weight: 900;
+  color: gray;
+}
+
+.more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 26rem;
+  height: 20rem;
+  width: 100%;
+}
+
+.count {
+  width: 18rem;
+  height: 20rem;
+  border-radius: 8%;
+  align-items: flex-start;
+  background-color: antiquewhite;
+  padding-left: 1.3rem;
+}
+.count body {
+  font-size: xx-large;
+}
+.count img {
+  margin-top: 2rem;
+  width: 4rem;
+  height: auto;
+}
+.div1 {
+  font-weight: bolder;
+  font-size: xxx-large;
+}
+
+.div2 {
+  font-weight: bold;
+  font-size: medium;
+  margin-bottom: 0.7rem;
+}
+.count2 {
+  width: 18rem;
+  height: 20rem;
+  border-radius: 8%;
+  align-items: flex-start;
+}
+.exp {
+  background-color: rgb(16, 201, 201);
+  width: 18rem;
+  height: 7.5rem;
+  margin-left: 2rem;
+  border-radius: 40px;
+}
+
+.need {
+  background-color: rgb(16, 201, 201);
+  width: 18rem;
+  height: 11rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  border-radius: 40px;
+}
+
+.thumbnail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 55rem;
+  width: 39.5rem;
+  height: 80rem;
+  margin-left: 30.75%;
+  background-color: aqua;
+  justify-content: space-around;
+}
+
+.thumbnail div {
+  width: 18rem;
+  height: 10rem;
+  background-color: bisque;
+}
